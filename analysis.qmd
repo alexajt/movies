@@ -18,6 +18,7 @@ movies_clean <- movies |>
 ```
 
 ```{r}
+#| warning: false
 ggplot(movies, aes(x = tomatoMeter)) +
   geom_histogram() +
   labs(
